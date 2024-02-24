@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sps_game.css">
+    <title>Stone paper scissor game</title>
+</head>
+
+<body>
+    <h1>
+        Stone Paper Scissor
+    </h1>
+    <div class="container">
+
+        <div class="move hide">
+            <div class="player">
+                <div>
+                    Your score: <span class="player_score">0</span>
+                </div>
+                <div>
+                    You choose: <span class="player_move"></span>
+                </div>
+            </div>
+            <div class="computer">
+                <div>
+                    Computer's score: <span class="computer_score">0</span>
+                </div>
+                <div>
+                    Computer choose: <span class="computer_move"></span>
+                </div>
+            </div>
+        </div>
+        <div class="image">
+            <div class="img">
+                <img src="https://drawcartoonstyle.com/wp-content/uploads/2022/03/Draw-the-whole-hand-1024x1024.png"
+                    id="stone">
+                <p>stone</p>
+            </div>
+            <div class="img">
+                <img src="https://drawcartoonstyle.com/wp-content/uploads/2022/03/Color-the-hand-and-draw-the-fingernails-600x600.png"
+                    id="paper">
+                <p>Paper</p>
+            </div>
+            <div class="img">
+                <img src="https://cdn.vectorstock.com/i/preview-1x/50/28/hand-with-two-fingers-up-in-peace-or-victory-vector-42705028.webp"
+                    id="scissor">
+                <p>scissor</p>
+            </div>
+        </div>
+        <div class="winner">
+            Please choose your choice
+        </div><br>
+        <button class="reset">Reset</button>
+    </div>
+</body>
+<script src="sps_game.js"></script>
+
+</html>
