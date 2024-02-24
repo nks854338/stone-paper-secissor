@@ -71,12 +71,12 @@ const winner=()=>{
         c_score++;
         computer_score.innerText=c_score;
     }
-    else if((computer_choose=="stone" && player_choose=="paper")||(computer_choose=="paper" && player_choose=="paper")||(computer_choose=="scissor" && player_choose=="stone")){
+    else if((computer_choose=="stone" && player_choose=="paper")||(computer_choose=="paper" && player_choose=="scissor")||(computer_choose=="scissor" && player_choose=="stone")){
         msg.innerText="You won the game";
         p_score++;
         player_score.innerText=p_score;
     }
-    else if((computer_choose=="stone" && player_choose=="stone")||(computer_choose=="paper" && player_choose=="paper")||(computer_choose=="scissor" && player_choose=="Scissor")){
+    else if((computer_choose=="stone" && player_choose=="stone")||(computer_choose=="paper" && player_choose=="paper")||(computer_choose=="scissor" && player_choose=="scissor")){
         msg.innerText="Game is tied";
     }
 }
