@@ -66,7 +66,7 @@ const computer_choice = () => {
 }
 
 const winner=()=>{
-    if((computer_choose=="scissor" && player_choose=="paper")||(computer_choose=="paper" && player_choose=="stone")||(computer_choose=="scissor" && player_choose=="paper")){
+    if((computer_choose=="scissor" && player_choose=="paper")||(computer_choose=="paper" && player_choose=="stone")||(computer_choose=="stone" && player_choose=="scissor")){
         msg.innerText="Computer won the game";
         c_score++;
         computer_score.innerText=c_score;
