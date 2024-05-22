@@ -1,2 +1,1 @@
-
-https://nks22bsc10085.github.io/stone-paper-secissor/
+https://nks854338.github.io/stone-paper-secissor/
