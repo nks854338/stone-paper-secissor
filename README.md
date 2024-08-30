@@ -13,7 +13,6 @@ Welcome to the **Stone-Paper-Scissors Game**! This project is one of my first Ja
 Experience the game in action [here](https://relaxed-frangipane-52d311.netlify.app).
 
 ## 🛠️ How to Run
-
 1. **Clone the Repository:**
    ```bash
-  https://github.com/nks854338/stone-paper-secissor
+   https://github.com/nks854338/stone-paper-secissor
